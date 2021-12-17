@@ -1,0 +1,55 @@
+label {
+    display: block;
+    text-align: start;
+    color: #f2f2f2;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+form {
+    width: 1675px;
+    background: transparent;
+    border-radius: 17px;
+    padding: 20px;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
+}
+
+.inputfield {
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    height: 44px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    transition: all 1s;
+    border: 3px solid rgb(255, 50, 50);
+    background: white;
+    color: white;
+    margin: 1em 0 2em 0;
+    padding: 2em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border: 3px solid white;
+}
+
+.button {
+    border: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 0.3em;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    background: white;
+    transition: transform .5s;
+}
+
+.button:hover {
+    transform: scale(1.03);
+    background-color: white;
+    color: black;
+}
