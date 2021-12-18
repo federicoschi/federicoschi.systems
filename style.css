@@ -6,6 +6,7 @@ lab {
     color: #f2f2f2;
     font-weight: 600;
     font-size: 30px;
+    cursor: none;
 }
 
 
@@ -28,6 +29,7 @@ lab {
     color: white;
     margin: 1em 0 2em 0;
     padding: 2em;
+    cursor: none;
 }
 
 input[type="text"]:focus,
@@ -55,11 +57,12 @@ input[type="message"]:focus {
     background: #212121;
     /* To get the hover animation to work */
     transition: transform .5s;
+    cursor: none;
 }
 
 .button:hover {
     transform: scale(1.03);
-    cursor: pointer;
+    cursor: none;
     background-color: #f2f2f2;
     color: #212121;
 }

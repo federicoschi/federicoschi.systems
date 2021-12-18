@@ -317,6 +317,7 @@ form {
     color: white;
     margin: 1em 0 2em 0;
     padding: 2em;
+    cursor: none;
 }
 
 .container form button {
@@ -332,6 +333,7 @@ form {
     background: #212121;
     /* To get the hover animation to work */
     transition: transform .5s;
+    cursor: none;
 }
 
 .container form textarea {
@@ -501,6 +503,12 @@ form {
         width: 90vw;
         padding: 0px 5vw;
     }
+    #middle h1 {
+        font-size: 50px;
+        text-decoration: none;
+        font-weight: 300;
+        letter-spacing: 0.1em;
+    }
     #middle table {
         width: 80%;
     }
@@ -521,5 +529,12 @@ form {
     }
     #box div {
         width: 100%;
+    }
+    .container form button {
+        width: 90%;
+    }
+    .container form input {
+        width: 75%;
+        font-size: 15px;
     }
 }
