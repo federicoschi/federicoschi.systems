@@ -1,3 +1,8 @@
+/* 
+    pointer.js was created by OwL for use on websites, 
+     and can be found at https://seattleowl.com/pointer.
+*/
+
 const pointer = document.createElement("div")
 pointer.id = "pointer-dot"
 const ring = document.createElement("div")
@@ -33,7 +38,7 @@ const init_pointer = (options) => {
 
     const getOption = (option) => {
         let defaultObj = {
-            pointerColor: "#750c7e",
+            pointerColor: "black",
             ringSize: 15,
             ringClickSize: (options["ringSize"] || 15) - 5,
         }
